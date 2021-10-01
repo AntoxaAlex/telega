@@ -1,0 +1,34 @@
+{
+  "name": "telega",
+  "version": "1.0.0",
+  "description": "This is tedy_bear server",
+  "main": "src/telegramAPI/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon src/telegramAPI/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "axios": "^0.21.3",
+    "body-parser": "^1.19.0",
+    "console.table": "^0.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "infura-web3-provider": "0.0.3",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.12",
+    "web3": "^1.5.2",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "ts-node": "^10.2.1",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.2"
+  }
+}
